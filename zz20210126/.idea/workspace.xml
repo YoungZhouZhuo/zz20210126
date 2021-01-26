@@ -11,6 +11,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -40,7 +41,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ProxyUserServiceTest.testProxyUserServiceJdk">
     <configuration name="SpringApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.com.taiji.spring.SpringApplication" />
       <module name="zz20210126" />
@@ -54,8 +55,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProxyUserServiceTest.testProxyUserService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zz20210126" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.taiji.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.com.taiji.spring" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.taiji.spring.ProxyUserServiceTest" />
+      <option name="METHOD_NAME" value="testProxyUserService" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProxyUserServiceTest.testProxyUserServiceJdk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zz20210126" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.taiji.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.com.taiji.spring" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.taiji.spring.ProxyUserServiceTest" />
+      <option name="METHOD_NAME" value="testProxyUserServiceJdk" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProxyUserServiceTest.testProxyUserServiceJdk" />
+        <item itemvalue="JUnit.ProxyUserServiceTest.testProxyUserService" />
         <item itemvalue="Application.SpringApplication" />
       </list>
     </recent_temporary>
@@ -71,6 +106,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611625156881</updated>
       <workItem from="1611625158308" duration="6697000" />
+      <workItem from="1611641070492" duration="8406000" />
     </task>
     <servers />
   </component>
@@ -78,25 +114,37 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="914" height="279" key="GridCell.Tab.0.bottom" timestamp="1611634352323">
+    <state x="1245" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1611651479989">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611634352323" />
-    <state width="914" height="279" key="GridCell.Tab.0.center" timestamp="1611634352322">
+    <state x="1245" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1611651479989" />
+    <state x="991" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1611648412740">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611634352322" />
-    <state width="914" height="279" key="GridCell.Tab.0.left" timestamp="1611634352322">
+    <state x="991" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611648412740" />
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1611654745020">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611634352322" />
-    <state width="914" height="279" key="GridCell.Tab.0.right" timestamp="1611634352323">
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611654745020" />
+    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1611654745020">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611634352323" />
+    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611654745020" />
+    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1611654745020">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611654745020" />
+    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1611654745020">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611654745020" />
     <state x="730" y="198" key="SettingsEditor" timestamp="1611628229824">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="730" y="198" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611628229824" />
+    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1611649158716">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611649158716" />
   </component>
 </project>

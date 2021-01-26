@@ -1,9 +1,6 @@
 package cn.com.taiji.spring;
 
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
-import org.springframework.util.CollectionUtils;
 
 public class SpringApplication {
     public static void main(String[] args) {
@@ -17,9 +14,14 @@ public class SpringApplication {
 
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
         context.register(AppConfig.class);
+        //context.addApplicationListener(new ApplicationStartedListner());
         context.refresh();
-        CollectionUtils.arrayToList(context.getBeanDefinitionNames()).forEach(item-> System.out.println(item));
-        UserService userService = context.getBean(UserService.class);
-        userService.save();
+        //CollectionUtils.arrayToList(context.getBeanDefinitionNames()).forEach(item-> System.out.println(item));
+        UserServiceImpl userServiceImpl = context.getBean(UserServiceImpl.class);
+        UserServiceImpl userServiceImpl1 = context.getBean(UserServiceImpl.class);
+        System.out.println(userServiceImpl);
+        System.out.println(userServiceImpl1);
+
+        userServiceImpl.save();
     }
 }
